@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css'
 import image from '../assets/login.jpg';
+import Footer from '../components/footer.js';
 const LoginPage = ({ onChangePage }) => {
   return (
     <div className="auth-container">
