@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css'
 import image from '../assets/login.jpg';
-import Footer from '../components./Footer';
 const LoginPage = ({ onChangePage }) => {
   return (
     <div className="auth-container">
@@ -22,7 +21,6 @@ const LoginPage = ({ onChangePage }) => {
           New User? <span onClick={() => onChangePage('register')}>Sign up</span>
         </p>
       </div>
-      </footer>
     </div>
   );
 };
