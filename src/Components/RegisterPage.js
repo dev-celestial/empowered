@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import { Link } from 'react-router-dom'
 import image from '../assets/signup.jpg';
 
 const RegisterPage = ({ onChangePage }) => {
@@ -18,9 +19,8 @@ const RegisterPage = ({ onChangePage }) => {
           <input type="password" placeholder="Password" required />
           <button type="submit">Register</button>
         </form>
-        <p>
-          Already have an account? <span onClick={() => onChangePage('login')}>Sign In</span>
-        </p>
+
+        <small> Already have an account? <Link to="/login">Sign In</Link></small>
       </div>
     </div>
   );
