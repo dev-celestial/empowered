@@ -8,7 +8,7 @@ const Data = () => {
         <h3 className="home__subtitle">A new era of learning</h3>
         <p className="home__description">"We propose a software solution to enhance education in rural India by improving students' user experience, making education fun and interactive by providing them with an adaptive learning app containing virtual classrooms, e-learning content, and data analytics, which will be utilized for infrastructure planning to bridge the gap of education in rural areas"</p>
 
-        <a href="#contact" className="button button--flex">
+        <a href="Home" className="button button--flex">
             Getting Started
             <svg
                   class="button__icon"

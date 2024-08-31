@@ -15,10 +15,10 @@ const Header = () => {
         
         </Link>
         <ul className="nav__menu">
-          <li><Link to='/profile/sdfsdf'>Home</Link></li> 
-          <li><Link to='/create'>Home</Link></li>
-          <li><Link to='/authors'>Home</Link></li>
-          <li><Link to='/login'>Login</Link></li>
+          <li ><Link to='/profile/sdfsdf'>Home</Link></li> 
+          <li ><Link to='/create'>Home</Link></li>
+          <li ><Link to='/authors'>Home</Link></li>
+          <li className='button btn primary' ><Link to='/login'>Login</Link></li>
         </ul>
         <button className="nav__toggle-btn">
           
